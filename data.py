@@ -31,17 +31,17 @@ print("factors of {} are: {}".format(number,list_of_factors)) """
 
 #--------------------------------------------------------------------------------------
 
-def gcf(numX, numY):
+""" def gcf(numX, numY):
     if numX > numY:
         x = numY
     else:
         x = numX
-    cf = []
-    for i in range(1,x+1):
-        if(numX,numY)%i == 0:
-            cf.append(i)
-    return cf
+    for i in range(1,x + 1):
+        if numX%i == 0 and numY%i == 0:
+            hcf = i
+    return hcf
     
 numX = int(input('please enter the first number:'))
 numY = int(input('please enter the second number:'))
-print(max(gcf))
+
+print(gcf(numX,numY)) """
